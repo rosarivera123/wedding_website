@@ -18,43 +18,33 @@
 
  /*fixes navbar color */
  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
- 	background-color:  #a77bc1;
- 	color:white;
- 	direction: ltr;
-    color: #ccc;
-    font: 400 13px/32px "Open Sans",sans-serif;
-    height: 32px;
-    position:fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-width: 600px;
-    z-index: 99999;
-    text-align: center;
+    background-color:  #a77bc1;
+    color:white;
+    
 
  }
  .navbar-default .navbar-brand{
- 	color:transparent;
+    color:transparent;
  }
  .navbar-default {
- 	color:transparent;
- 	background-color:transparent;
- 	border-color:transparent;
+    color:transparent;
+    background-color:#a77bc1;
+    border-color:transparent;
  }
  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
- 	background-color: #a26ec1;
- 	color:white;
+    background-color: #a26ec1;
+    color:white;
  }
  .navbar-default .navbar-nav>li>a{
- 	color:white;
- 	background-color: #a77bc1;
+    color:white;
+    background-color: #a77bc1;
  }
  .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
- 	color:#a77bc1;
+    color:#a77bc1;
  }
  .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
- 	color:white;
- 	background-color: #a26ec1;
+    color:white;
+    background-color: #a26ec1;
  }
  /*fixes header style and font*/
  .site-description{
@@ -63,9 +53,9 @@ font-size: 24px;
 text-align:center ;
  }
  .lead{
- 	font-family: 'Aviano Sans';
- 	font-size: 22px;
- 	text-align: center;
+    font-family: 'Aviano Sans';
+    font-size: 22px;
+    text-align: center;
 }
  .h1, h1{
 font-family:cursive;
@@ -74,11 +64,11 @@ color:#00e6e6;
  }
 
  a{
- 	color: #a77bc1;
+    color: #a77bc1;
  }
  a:focus, a:hover{
- 	color: #a77bc1;
- 	text-decoration: none;
+    color: #a77bc1;
+    text-decoration: none;
  }
  /*fixes button on contact form */
  button, html input[type=button], input[type=reset], input[type=submit]{
