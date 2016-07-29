@@ -13,24 +13,31 @@
  */
 /*body{
     background-image: url("http://localhost:8888/new_website/wp-content/uploads/2016/07/glitter.jpg")
-}*?
- 
-
+}*/
+ @import url('https://fonts.googleapis.com/css?family=Pacifico');
+ @import url('https://fonts.googleapis.com/css?family=Arimo');
+p{
+    font-family: 'Arimo';
+}
+ b{
+    font-family: 'Pacifico';
+ }
  /*fixes navbar color */
  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
     background-color:  #a77bc1;
     color:white;
     
-
- }
+}
  .navbar-default .navbar-brand{
-    color:transparent;
+    color:white;
  }
  .navbar-default {
     color:transparent;
     background-color:#a77bc1;
     border-color:transparent;
+    
  }
+ 
  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
     background-color: #a26ec1;
     color:white;
@@ -40,27 +47,31 @@
     background-color: #a77bc1;
  }
  .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
-    color:#a77bc1;
+    color:white;
  }
  .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
     color:white;
     background-color: #a26ec1;
  }
+
  /*fixes header style and font*/
  .site-description{
-font-family: 'Aviano Sans';
-font-size: 24px;
+font-family: 'pacifico';
+font-size: 32px;
 text-align:center ;
+color:white;
  }
  .lead{
-    font-family: 'Aviano Sans';
-    font-size: 22px;
+    font-family: 'pacifico';
+    font-size: 30px;
     text-align: center;
+    color:white;
 }
  .h1, h1{
-font-family:cursive;
+font-family:'Pacifico';
 text-align: center;
 color:#00e6e6;
+padding-bottom: 1cm;
  }
 
  a{
@@ -81,3 +92,30 @@ background-color: #00e6e6;
     display: inline-block;
     font-size: 16px;
  }
+ /*fixes header padding*/
+ header{
+    padding-top: 11cm;
+    padding-bottom: 9cm;
+    background-image:url("http://static1.squarespace.com/static/559487ebe4b001e8af7b15a3/571565114d088e83188830d5/571565168a65e27401e8343b/1461020822632/b1_Tiffany-and-Blair-final-0293.jpg");
+ background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+ }
+ /*changes color of navbar in mobile version*/
+ .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: #a77bc1;
+ }
+ /* changes background of body*/
+ body{
+    background-image: url("http://i.giphy.com/1ENHGS4k97JuM.gif");
+     background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ }
+ /*take out border that surrounds ids*/
+ :focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
