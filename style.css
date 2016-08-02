@@ -161,10 +161,7 @@ background-image:url("http://i.giphy.com/xTcnT2ZYSaCTdkTSmI.gif");
   /*background-size:cover ;*/
   background-repeat: no-repeat;
   background-attachment: fixed;");
-  background-position:center ;
-  /*background-size:cover ;*/
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+
 }
 .wedding-events{
   background-image: url("http://66.media.tumblr.com/c04e3105108fb0eaa6088aa494ae3d70/tumblr_nf475wfHEP1u3eaqvo1_500.gif");
@@ -175,7 +172,7 @@ background-image:url("http://i.giphy.com/xTcnT2ZYSaCTdkTSmI.gif");
  
 }
 .registry{
-   background-image: url("https://s-media-cache-ak0.pinimg.com/236x/97/e2/de/97e2ded5d2c5ef4de3f9d64f352d44fb.jpg" );
+   background-image: url("https://s-media-cache-ak0.pinimg.com/236x/2b/34/85/2b3485dcd7c5cf1963e549ada04db68d.jpg" );
   background-position:center ;
   /*background-size:cover ;*/
   background-repeat: no-repeat;
