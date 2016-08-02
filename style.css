@@ -16,8 +16,10 @@
 }*/
  @import url('https://fonts.googleapis.com/css?family=Pacifico');
  @import url('https://fonts.googleapis.com/css?family=Arimo');
+
 p{
     font-family: 'Arimo';
+
 }
  b{
     font-family: 'Pacifico';
@@ -83,7 +85,7 @@ padding-bottom: 1cm;
  }
  /*fixes button on contact form */
  button, html input[type=button], input[type=reset], input[type=submit]{
-background-color: #00e6e6; 
+background-color: #a77bc1; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -129,23 +131,29 @@ background-color: #00e6e6;
     padding-right: 0;
     float: right;
 }
-/*chnages the background of our story page*/
+/*changes the background of our story page*/
+#content{
+  background-color: white;
+}
 #container{
-    /*background-image:url("http://i.giphy.com/XFcLUPRChhjpu.gif");
+    background-image:url("http://i.giphy.com/XFcLUPRChhjpu.gif");
  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;*/
+  background-attachment: fixed;
   background-color: white;
   
 
 }
+
 #story {
 background-image:url("http://i.giphy.com/xTcnT2ZYSaCTdkTSmI.gif");
  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  text-align: center;
+
   
 }
 .accommodations{
@@ -154,21 +162,24 @@ background-image:url("http://i.giphy.com/xTcnT2ZYSaCTdkTSmI.gif");
   /*background-size:cover ;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: white;
 }
 .contact-us{
   background-image: url("http://localhost:8888/new_website/wp-content/uploads/2016/08/heart.gif");
   background-position:center ;
   /*background-size:cover ;*/
   background-repeat: no-repeat;
-  background-attachment: fixed;");
-
+  background-attachment: fixed;
+background-color: white;
 }
+
 .wedding-events{
   background-image: url("http://66.media.tumblr.com/c04e3105108fb0eaa6088aa494ae3d70/tumblr_nf475wfHEP1u3eaqvo1_500.gif");
   background-position:center ;
   /*background-size:cover ;*/
   background-repeat: no-repeat;
-  background-attachment: fixed;");
+  background-attachment: fixed;
+  background-color: white;
  
 }
 .registry{
@@ -178,7 +189,21 @@ background-image:url("http://i.giphy.com/xTcnT2ZYSaCTdkTSmI.gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
 background-size: 500px 427px;
+background-color: white;
 
 }
 
-
+/* organizes text*/
+h3{
+  font-family: 'pacifico';
+}
+p{
+  text-align: center;
+}
+*{
+  text-align: center;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+   display: block;
+    margin: 0 auto;
+}
