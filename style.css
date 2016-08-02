@@ -70,7 +70,7 @@ color:white;
  .h1, h1{
 font-family:'Pacifico';
 text-align: center;
-color:#00e6e6;
+color:#a77bc1;
 padding-bottom: 1cm;
  }
 
@@ -94,7 +94,7 @@ background-color: #00e6e6;
  }
  /*fixes header padding*/
  header{
-    padding-top: 11cm;
+    padding-top: 10cm;
     padding-bottom: 9cm;
     background-image:url("http://static1.squarespace.com/static/559487ebe4b001e8af7b15a3/571565114d088e83188830d5/571565168a65e27401e8343b/1461020822632/b1_Tiffany-and-Blair-final-0293.jpg");
  background-position: center;
@@ -118,4 +118,70 @@ background-color: #00e6e6;
  /*take out border that surrounds ids*/
  :focus {
     outline: -webkit-focus-ring-color auto 0px;
+
 }
+.navbar-default {
+    border-color:  #a77bc1;
+    background-color:  #a77bc1;
+}
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 340px;
+    padding-right: 0;
+    float: right;
+}
+/*chnages the background of our story page*/
+#container{
+    /*background-image:url("http://i.giphy.com/XFcLUPRChhjpu.gif");
+ background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;*/
+  background-color: white;
+  
+
+}
+#story {
+background-image:url("http://i.giphy.com/xTcnT2ZYSaCTdkTSmI.gif");
+ background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+.accommodations{
+  background-image: url("http://67.media.tumblr.com/d473d1997c905a004bd304060d5178ca/tumblr_o4jouuMplj1srlqpvo1_1280.gif");
+  background-position:center ;
+  /*background-size:cover ;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.contact-us{
+  background-image: url("http://localhost:8888/new_website/wp-content/uploads/2016/08/heart.gif");
+  background-position:center ;
+  /*background-size:cover ;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;");
+  background-position:center ;
+  /*background-size:cover ;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.wedding-events{
+  background-image: url("http://66.media.tumblr.com/c04e3105108fb0eaa6088aa494ae3d70/tumblr_nf475wfHEP1u3eaqvo1_500.gif");
+  background-position:center ;
+  /*background-size:cover ;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;");
+ 
+}
+.registry{
+   background-image: url("https://s-media-cache-ak0.pinimg.com/236x/97/e2/de/97e2ded5d2c5ef4de3f9d64f352d44fb.jpg" );
+  background-position:center ;
+  /*background-size:cover ;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+background-size: 500px 427px;
+
+}
+
+
