@@ -105,7 +105,7 @@ background-color: #a77bc1;
     padding-top: 10cm;
     padding-bottom: 9cm;
     background-image:url("http://static1.squarespace.com/static/559487ebe4b001e8af7b15a3/571565114d088e83188830d5/571565168a65e27401e8343b/1461020822632/b1_Tiffany-and-Blair-final-0293.jpg");
- background-position: center;
+ background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -114,6 +114,12 @@ background-color: #a77bc1;
   -o-background-size: cover;
   background-size: cover;
 
+ }
+ @media only screen and (max-width: 767px){
+  header{
+    background-image:url("http://static1.squarespace.com/static/559487ebe4b001e8af7b15a3/571565114d088e83188830d5/571565168a65e27401e8343b/1461020822632/b1_Tiffany-and-Blair-final-0293.jpg");
+
+  }
  }
  /*changes color of navbar in mobile version*/
  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
@@ -158,10 +164,10 @@ background-color: #a77bc1;
   
 
 }
-
-#story {
-background-image:url("http://i.giphy.com/xTcnT2ZYSaCTdkTSmI.gif");
- background-position: center;
+@media only screen and (max-width: 767px) {
+  #story{
+    background-image:url("http://i.giphy.com/xTcnT2ZYSaCTdkTSmI.gif");
+ background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -169,13 +175,27 @@ background-image:url("http://i.giphy.com/xTcnT2ZYSaCTdkTSmI.gif");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: 100%;
+
+  } 
+}
+#story {
+background-image:url("http://i.giphy.com/xTcnT2ZYSaCTdkTSmI.gif");
+ background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
 
   
 }
 .accommodations{
-  background-image: url("http://67.media.tumblr.com/d473d1997c905a004bd304060d5178ca/tumblr_o4jouuMplj1srlqpvo1_1280.gif");
-  background-position:center ;
+  background-image: url("http://66.media.tumblr.com/d473d1997c905a004bd304060d5178ca/tumblr_o4jouuMplj1srlqpvo1_500.gif");
+  background-position:center center ;
   /*background-size:cover ;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -185,10 +205,16 @@ background-image:url("http://i.giphy.com/xTcnT2ZYSaCTdkTSmI.gif");
   -o-background-size: cover;
   background-size: cover;
   background-size: 800px 800px;
+  
+}
+@media only screen and (max-width: 767px){
+  .accommodations{
+    background-image: url("http://66.media.tumblr.com/d473d1997c905a004bd304060d5178ca/tumblr_o4jouuMplj1srlqpvo1_500.gif");
+  }
 }
 .contact-us{
   background-image: url("http://localhost:8888/new_website/wp-content/uploads/2016/08/heart.gif");
-  background-position:center ;
+  background-position:center center;
   /*background-size:cover ;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -198,11 +224,16 @@ background-color: white;
   -o-background-size: cover;
   background-size: cover;
   background-size: 500px 500px;
+  
 }
-
+@media only screen and (max-width: 767px){
+ .contact-us{
+  background-image: url("http://localhost:8888/new_website/wp-content/uploads/2016/08/heart.gif"); 
+}
+}
 .wedding-events{
   background-image: url("http://66.media.tumblr.com/c04e3105108fb0eaa6088aa494ae3d70/tumblr_nf475wfHEP1u3eaqvo1_500.gif");
-  background-position:center ;
+  background-position:center center;
   /*background-size:cover ;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -212,12 +243,15 @@ background-color: white;
   -o-background-size: cover;
   background-size: cover;
   background-size: 500px 500px;
-
- 
+}
+@media only screen and (max-width: 767px){
+  .wedding-events{
+  background-image: url("http://66.media.tumblr.com/c04e3105108fb0eaa6088aa494ae3d70/tumblr_nf475wfHEP1u3eaqvo1_500.gif");
+}
 }
 .registry{
    background-image: url("https://s-media-cache-ak0.pinimg.com/236x/2b/34/85/2b3485dcd7c5cf1963e549ada04db68d.jpg" );
-  background-position:center ;
+  background-position:center center;
   /*background-size:cover ;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -228,8 +262,13 @@ background-color: white;
   -o-background-size: cover;
   background-size: cover;
   background-size: 500px 500px;
+  
 }
-
+@media only screen and (max-width: 767px){
+  .registry{
+   background-image: url("https://s-media-cache-ak0.pinimg.com/236x/2b/34/85/2b3485dcd7c5cf1963e549ada04db68d.jpg" );
+}
+}
 /* organizes text*/
 h3{
   font-family: 'pacifico';
